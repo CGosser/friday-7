@@ -9,4 +9,4 @@
   * mercury
   * venus
   * mars
-  * jupiter 
+  * jupiter
