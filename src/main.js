@@ -1,2 +1,2 @@
 import $ from 'jquery';
-import default from "backend";
+import { galacticAge } from "./backend";

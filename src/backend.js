@@ -1,4 +1,4 @@
-export class galacticDate {
+export class galacticAge {
   constructor(age){
     this.age = age;
   }
