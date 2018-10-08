@@ -12,15 +12,15 @@ let testAge = new galacticAge(34);
   });
 
   it("can convert the ages to those in years of  venus", function(){
-
+    expect(testAge.venus()).toEqual(21.08)
   });
 
   it("can convert the ages to those in years of mars", function(){
-
+    expect(testAge.mars()).toEqual(63.92)
   });
 
   it("can convert the ages to those in years of jupiter", function(){
-
+    expect(testAge.jupiter()).toEqual(403.24)
   });
 
 })
