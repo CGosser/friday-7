@@ -7,15 +7,15 @@ export class galacticAge {
     return typeof this;
   }
   mercury(){
-    return this.age * 0.24
+    return parseFloat(this.age * 0.24).toFixed(2);
   }
   venus(){
-    return this.age * 0.62
+    return parseFloat(this.age * 0.62).toFixed(2);
   }
   mars(){
-    return this.age * 1.88
+    return parseFloat(this.age * 1.88).toFixed(2);
   }
   jupiter(){
-    return this.age * 11.86
+    return parseFloat(this.age * 11.86).toFixed(2);
   }
 }
