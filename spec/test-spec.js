@@ -4,7 +4,7 @@ describe("dates", function(){
 let testAge = new galacticAge(50);
 
   it("should test whether ages are converted into objects", function(){
-    expect(testAge.checker()).toEqual("string");
+    expect(testAge.checker()).toEqual("object");
   })
 
   it("should perform mathematical operations upon these ages", function(){
