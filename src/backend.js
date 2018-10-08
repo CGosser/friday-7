@@ -6,5 +6,7 @@ export class galacticAge {
   checker(){
     return typeof this;
   }
-
+  mercury(){
+    return this.age * 0.24
+  }
 }
