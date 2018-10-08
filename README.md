@@ -10,3 +10,12 @@
   * venus
   * mars
   * jupiter
+
+## _installation_
+  * use the following command line commands
+    ```
+    git clone https://github.com/CGosser/friday-7.git
+    cd fakepath/friday-7
+    npm install
+    npm run test
+    ```
