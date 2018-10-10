@@ -43,6 +43,6 @@ export class galacticAge {
       } else if (planetaryAge >= lifeExpectancy){
         actuary = planetaryAge - lifeExpectancy;
       }
-    return parseFloat(actuary).toFixed(2)
+    return parseFloat(actuary.toFixed(2))
     }
   }
