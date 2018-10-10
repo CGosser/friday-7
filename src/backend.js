@@ -37,10 +37,12 @@ export class galacticAge {
   actuarial(planet){
     const planetaryAge = this.planetAge(planet)
     const lifeExpectancy = this.lifeExpectancy(planet)
+    let actuary = 0
       if ( planetaryAge < lifeExpectancy) {
-        return lifeExpectancy - planetaryAge;
+        actuary = lifeExpectancy - planetaryAge;
       } else if (planetaryAge >= lifeExpectancy){
-        return planetaryAge - lifeExpectancy;
+        actuary = planetaryAge - lifeExpectancy;
       }
+    return parseFloat(actuary).toFixed(2)
     }
   }

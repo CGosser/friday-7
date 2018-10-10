@@ -30,6 +30,9 @@ let testAge = new galacticAge(34);
     expect(testAge.lifeExpectancy("jupiter")).toEqual(6.64);
   });
   it("Determines how many years a user has left to live on each planet", function(){
-    expect(testAge.actuarial("mercury")).toEqual(328.08)
+    expect(testAge.actuarial("mercury")).toEqual(186.41)
+    expect(testAge.actuarial("venus")).toEqual(72.16)
+    expect(testAge.actuarial("mars")).toEqual(23.79)
+    expect(testAge.actuarial("jupiter")).toEqual(3.77)
   })
 })
